@@ -1,0 +1,40 @@
+{
+    "name": "discord-template",
+    "description": "Discord bot altyapısı",
+    "version": "1.0.1",
+    "main": "app.js",
+    "bin": {
+        "dts": "start.js"
+    },
+    "types": "app.d.ts",
+    "type": "module",
+    "keywords": [
+        "javascript",
+        "typescript",
+        "bot",
+        "cli",
+        "app",
+        "node",
+        "js",
+        "ts",
+        "discord",
+        "discord-bot",
+        "djs",
+        "dts"
+    ],
+    "license": "MIT",
+    "author": "ayd1ndemirci",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "discord.js": "^14.15.2",
+        "dotenv": "^16.4.5",
+        "humanize-duration": "^3.32.0",
+        "moment": "^2.30.1",
+        "typescript": "^5.4.5"
+    },
+    "devDependencies": {
+        "discord-api-types": "^0.37.53"
+    }
+}
